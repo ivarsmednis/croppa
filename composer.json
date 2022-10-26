@@ -1,5 +1,5 @@
 {
-    "name": "bkwld/croppa",
+    "name": "Ivarsmednis/croppa",
     "description": "Image thumbnail creation through specially formatted URLs for Laravel",
     "keywords": [
         "image",
@@ -7,7 +7,7 @@
         "resize",
         "laravel"
     ],
-    "homepage": "https://github.com/bkwld/croppa",
+    "homepage": "https://github.com/Ivarsmednis/croppa",
     "license": "MIT",
     "authors": [
         {
@@ -39,12 +39,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Bkwld\\Croppa\\": "src"
+            "Ivarsmednis\\Croppa\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Bkwld\\Croppa\\Test\\": "tests"
+            "Ivarsmednis\\Croppa\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -53,10 +53,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Bkwld\\Croppa\\CroppaServiceProvider"
+                "Ivarsmednis\\Croppa\\CroppaServiceProvider"
             ],
             "aliases": {
-                "Croppa": "Bkwld\\Croppa\\Facades\\Croppa"
+                "Croppa": "Ivarsmednis\\Croppa\\Facades\\Croppa"
             }
         }
     },
